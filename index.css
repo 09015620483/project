@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "poppins", sans-serif;
+}
+
+.all-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 8%;
+}
+
+.nav .nav-links li a{
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.nav .nav-links{
+    display: flex;
+    gap: 2rem;
+}
+
+.hero-img{
+    background: url(../pexels-photo-3756848.webp)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.nav ul li {
+    list-style-type: none
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 8%;
+}
+.hero {
+    margin-top: 5%;
+    display: flex;
+    gap: 5rem;
+}
+.hero-img img{
+    width: 550px;
+    height: 500px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;  
+}
+.hero-imgg img{
+    width: 500px;
+    height: 600px;
+}
+.row p{
+    font-size: 19.8px;
+}
+.row1 {
+    display:grid ;
+    grid-template-columns: repeat(2, 2fr);
+    line-height: 2;
+}
+
+.cards {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 8% 6% 0 6%;
+    gap: 4rem;
+    line-height: 2;
+}
+
+.card{
+    width: 30%;
+    background: whitesmoke;
+    padding: 13px; 
+    border-radius: 7px;
+    transition-property: transition;
+}
+
+.card p {
+    font-size: 19px;
+}
+
+.card p:hover{
+   color: white; 
+}
+
+.card:hover{
+    background: blue;
+    transform: translateY(-15px);
+    transition: .5s;
+}
+.container1{ 
+     margin: 0 4%;
+ }
+.quick-links span{
+     color: white; 
+     display: block;  
+ } 
+
+.quick-links span,
+.Contacts span,
+.newsletter span{
+    color: white;
+    padding: 4%;
+}
+
+ .gallery .img img{
+    height: 70px;
+    width: 70px;
+    border: 4px solid white;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 0.2rem;
+}
+
+
+.pp{
+    color: white;
+    margin-bottom: 2%;
+}
+.quick-input{
+    background-color: white;
+    padding: 11px;
+}
+.footer-con{
+    margin-top: 4%;
+}
+.quick-input .new-input input{
+    outline: none;
+    border: none;
+}
+.gala-head span h2{
+    color: white;
+}
+
+.quick-input .sign-btn button{
+    padding: 8px;
+    background-color: aquamarine;
+    outline: none;
+    border: none;
+}
+::placeholder{
+    font-size: 18px;
+
+}
+.quick-input{
+    display: flex;
+}
+
+
+.Contacts span{
+    display: block;
+
+}
+.Contacts span i{ 
+    display: block;
+} 
+.footer-con{
+    display: flex;
+    gap: 6rem;
+}
+.footer-content{
+    background-color: rgb(3, 3, 29); 
+}
+.span{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    margin-top: 3%;
+}
+
+.span span a{
+    color: white;
+    text-decoration: none;
+}
+
+.span span a i{
+    outline: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.span span a i:hover{
+    background-color: white;
+    color: blue;
+}
+
